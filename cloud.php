@@ -161,7 +161,6 @@ function progressHandler(event){
         $send_pass=$_GET['pass'];
         $send_file=$_GET['file'];
         Download();
-        echo "<script>window.close();</script>";
       }
 
       //ファイルの一覧表示
